@@ -1,0 +1,45 @@
+body {
+  background-color: linen;
+}
+
+h1 {
+  background-color: #92a8d1;
+  color: white;
+  margin-left: 5px;
+}
+
+p {
+  color: navy;
+  font-size: 20px;
+  text-align: justify;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  height: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+div {
+  position: relative;
+  left: 30px;
+  top: 10px;
+  width: 500px;
+  background-color: lightblue;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+}
